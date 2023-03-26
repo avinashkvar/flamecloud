@@ -1,0 +1,25 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+#navbar > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.blue{
+    color: #5865F2;
+}
+
+#started{
+    color: white;
+    background: #077BFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
