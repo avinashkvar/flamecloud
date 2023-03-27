@@ -5,7 +5,9 @@ import landing from '../static/landing.svg'
 const Navbar = () => {
   return (
     <div id='navbar'>
-        <img src={landing} alt="" />
+        <img style={{
+          width:'100%'
+        }}src={landing} alt="" />
     </div>
   )
 }
